@@ -1,0 +1,5 @@
+version=3
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-gettext-parser-$1.tar.gz/ \
+ https://github.com/smhg/gettext-parser/tags .*/archive/v?([\d\.]+).tar.gz

@@ -1,0 +1,57 @@
+node-gettext-parser (4.0.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 4.0.4
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 06 Oct 2020 13:53:22 +0200
+
+node-gettext-parser (4.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Mathias Behrle ]
+  * Use the preferred https URL format in the copyright file.
+  * Change Priority to optional according to policy recommendation.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 4.0.2
+  * Use pkg-js-tools auto install
+  * Enable upstream test
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 22 Feb 2020 16:03:48 +0100
+
+node-gettext-parser (1.2.2-1) unstable; urgency=medium
+
+  * New upstream version 1.2.2
+
+ -- Mathias Behrle <mbehrle@debian.org>  Tue, 24 Jan 2017 16:26:42 +0100
+
+node-gettext-parser (1.2.1-2) unstable; urgency=medium
+
+  * Point the watch file to the new maintainer location.
+
+ -- Mathias Behrle <mbehrle@debian.org>  Fri, 09 Dec 2016 17:06:10 +0100
+
+node-gettext-parser (1.2.1-1) unstable; urgency=medium
+
+  * New upstream version 1.2.1
+  * Document the maintainer change.
+  * Add the new maintainer to d/copyright.
+
+ -- Mathias Behrle <mbehrle@debian.org>  Fri, 02 Dec 2016 16:26:05 +0100
+
+node-gettext-parser (1.2.0-1) unstable; urgency=low
+
+  * Imported Upstream version 1.2.0
+  * Initial release (Closes: #831783)
+
+ -- Mathias Behrle <mbehrle@debian.org>  Tue, 19 Jul 2016 12:17:41 +0200

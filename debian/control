@@ -1,0 +1,39 @@
+Source: node-gettext-parser
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Mathias Behrle <mbehrle@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ chai <!nocheck>
+ , debhelper-compat (= 13)
+ , mocha <!nocheck>
+ , node-content-type <!nocheck>
+ , node-encoding <!nocheck>
+ , node-readable-stream <!nocheck>
+ , node-safe-buffer <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-gettext-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-gettext-parser.git
+Homepage: https://github.com/smhg/gettext-parser
+Rules-Requires-Root: no
+
+Package: node-gettext-parser
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , node-content-type
+ , node-encoding
+ , node-readable-stream
+ , node-safe-buffer
+Description: Parse and compile gettext po and mo files to/from json
+ Parse and compile gettext *po* and *mo* files with node.js, nothing more,
+ nothing less.
+ .
+ This module is slightly based on other gettext related modules
+ (node-gettext (https://github.com/andris9/node-gettext)). The plan is to move
+ all parsing and compiling logic from node-gettext to this module and leave
+ only translation related functions (domains, plural handling, lookups etc.).
+ .
+ Node.js is an event-based server-side JavaScript engine.
